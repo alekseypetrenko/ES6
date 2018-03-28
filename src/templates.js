@@ -22,10 +22,12 @@
 // sum(2,'4');
 
 ///////////////////// Tagged templated literal. Тегирование. Изменени вида шаблона при помощи функции 
-// Например можно сделать что бы name выводилось заглавным, пигшем функцию и добавляем ее перед шаблонной строкой
-let name = "Bill";
-console.log(upperName`Hello ${name}`)
+// Например можно сделать что бы name выводилось заглавным, пишем функцию и добавляем ее перед шаблонной строкой
 
-function upperName(literals, value) {
-    return literals[0] + value.toUpperCase();
+
+let name = "Bill";
+console.log(upp`Hi ${name}`);
+
+function upp(a, b){
+   return a[0] + b.toUpperCase();
 }

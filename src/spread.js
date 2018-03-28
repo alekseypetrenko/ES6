@@ -1,3 +1,4 @@
+///////////////////// SPREAD
 // let staticLanguages = ["C", "Java", "C++"];
 // let dynamicLanguages = ["JS", "Ruby", "PHP"];
 
